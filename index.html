@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+  />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Portfolio</title>
+</head>
+<body>
+  <header class="header">
+    <a href="#" class="logo">Portfolio.</a>
+    <nav class="navbar">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#project">My Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="home" id="home">
+    <div class="home-content">
+      <h3>Hello, It's Me.</h3>
+      <h1>Vikas</h1>
+      <h3>I am a <span class="multiple-text">Frontend Developer</span></h3>
+      <p>
+        Creative and detail-oriented frontend developer with a passion for
+        turning designs into interactive, responsive websites that deliver
+        excellent user experiences....
+      </p>
+    </div>
+    <div class="home-img">
+      <img src="vikasimg.jpg" alt="Vikas Image" />
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="about-title">
+      <div class="img">
+        <img src="vikasimg.jpg" alt="About Me" />
+      </div>
+      <div class="about-me">
+        <h1>About me</h1>
+        <p>
+          I am a passionate frontend developer specializing in creating engaging
+          and interactive web experiences through clean, efficient code and
+          innovative JavaScript animations. With a strong eye for design and
+          attention to detail, I deliver seamless user interfaces that blend
+          aesthetics with functionality. I thrive on solving complex challenges
+          and continuously learning to stay ahead in the evolving web
+          development landscape.
+        </p>
+        <div class="about-links">
+          <div class="skills">
+            <h3>Skills</h3>
+            <ul>
+              <li>HTML, CSS, JavaScript</li>
+              <li>Basic in JAVA</li>
+              <li>React</li>
+            </ul>
+          </div>
+          <div class="education">
+            <h3>Education</h3>
+            <ul>
+              <li>Passed 10th and 12th from Govt. Sr. Sec. School, Panipat.</li>
+              <li>Pursuing BCA 3rd year, Pt. C.L.S Govt. College.</li>
+            </ul>
+          </div>
+          <div class="experience">
+            <h3>Experience</h3>
+            <p>Completed internship at Novem Controls, Chandigarh.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="project" id="project">
+    <div class="my-project">
+      <h1>My Projects</h1>
+      <div class="card">
+        <img src="QuickBlog.jpg" alt="QuickBlog Project" />
+        <div class="card-content">
+          <h3>QuickBlog - Blog Editor & Previewer.</h3>
+          <div class="tech">
+            <h4>Techs Used :</h4>
+            <h5>HTML, CSS, JavaScript, React</h5>
+          </div>
+          <p>
+            Lightweight blog editor with live preview and responsive UI — compose,
+            preview, and export posts quickly using HTML/CSS/JavaScript/React.
+          </p>
+          <div class="btn-link"><a href="https://blog-client-ui-sage.vercel.app/" target="_blank" rel="noopener noreferrer">Live Link</a></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="contact-container">
+      <div class="contact-info">
+        <h2>Contact Me</h2>
+        <p>Have a project in mind or just want to say hi?</p>
+        <p>Email: <a href="mailto:vr9188794@gmail.com">vr9188794@gmail.com</a></p>
+        <p>Phone no.: <a href="tel:8168753832">8168753832</a></p>
+
+        <div class="social-links">
+          <div class="fb"><a href="https://m.facebook.com/p/Honey-Rajput-100030731863723/?wtsid=rdr_03s3Uccr4mbCZT6jZ#" aria-label="Facebook"><i class="bx bxl-facebook"></i></a></div>
+          <div class="insta"><a href="https://instagram.com/vikas__rajput._81" target="_blank" aria-label="Instagram"><i class="bx bxl-instagram"></i></a></div>
+          <div class="x"><a href="https://twitter.com/@vr9188794" aria-label="X Twitter"><i class="fa-brands fa-x-twitter"></i></a></div>
+          <div class="linkedin"><a href="https://www.linkedin.com/in/vr9188794" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a></div>
+          <div class="whatsapp"><a href="https://wa.me/8168753832" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a></div>
+          <div class="git"><a href="https://github.com/vikasrajput302" aria-label="GitHub"><i class="fa-brands fa-github"></i></a></div>
+        </div>
+        <div class="btn">
+          <a href="vikas.pdf" download="vikas.pdf">Download CV</a>
+        </div>
+      </div>
+
+      <form class="contact-form" novalidate>
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
